@@ -32,6 +32,13 @@ if spoor>snot:
     print (s)
 else:
     print (s)
+    
+#Python program to remove spaces from a given string.
+
+str=input("enter a string:")
+str1=str.replace(" ","")
+print(str1)
+
 
     
 #Python program to strip a set of characters from a string.
