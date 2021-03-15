@@ -33,4 +33,13 @@ if spoor>snot:
 else:
     print (s)
 
+    
+#Python program to strip a set of characters from a string.
+
+str=input("enter a string:")
+str1=input("enter characters which want to remove:")
+for char in str1:
+    str=str.replace(char,"")
+print(str)
+
 
