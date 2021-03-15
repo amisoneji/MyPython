@@ -48,3 +48,12 @@ li_st=list(set(word))
 list=sorted(li_st)
 print(list)
 
+#.COUNT() METHOD
+#Python program to count occurrences of a substring in a string
+
+str=input("enter a string")
+str1=input("enter a sub string")
+occ=str.count(str1)
+print(occ)
+
+
