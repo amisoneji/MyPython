@@ -10,6 +10,22 @@ str=input("enter a string:")
 print ("input in lower:",str.lower()) #convert string into lower case
 print ("input in upper:",str.upper()) #convert string into upper case
 
+#Python function to convert a given string to all uppercase if it contains at least 2 uppercase characters in the first 4 characters.  
+
+str=input("enter a string:")
+str1=str[0:4] #string slicing (index 0:inclusive,index 1:exclusive)
+count=0
+
+for i in str1:
+    if i==i.upper():
+       count=count+1
+       
+if count>=2:
+    print (str.upper())
+else:
+    print(str + " because condition not matched")
+
+
 #Python program to get the last part of a string before a specified character.
 
 str=input("enter email address:")
