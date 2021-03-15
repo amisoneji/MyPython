@@ -25,7 +25,8 @@ if count>=2:
 else:
     print(str + " because condition not matched")
 
-
+#.split() method
+    
 #Python program to get the last part of a string before a specified character.
 
 str=input("enter email address:")
