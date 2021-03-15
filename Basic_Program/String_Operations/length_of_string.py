@@ -1,5 +1,5 @@
 #Author :: AMISONEJI
-#Sample Program for basic bank transaction calculations.
+#Sample Program for lenth of string.
 """
 Python program to calculate the length of a string.
 """
