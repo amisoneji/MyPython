@@ -10,6 +10,14 @@ str=input("enter a string:")
 print ("input in lower:",str.lower()) #convert string into lower case
 print ("input in upper:",str.upper()) #convert string into upper case
 
+#Python program to get the last part of a string before a specified character.
+
+str=input("enter email address:")
+word=str.split("@") #split string by "@"
+li_st=list(word)
+print(li_st[1])
+
+
 #Python program that accepts a comma separated sequence of words as input and prints the unique words in sorted form (alphanumerically).
 
 #user inpur
