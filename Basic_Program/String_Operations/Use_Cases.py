@@ -33,6 +33,10 @@ word=str.split("@") #split string by "@"
 li_st=list(word)
 print(li_st[1])
 
+#Python program to split a string on the last occurrence of the delimiter.
+
+str=input("enter a string with comma sepration")
+print(str.rsplit(",",1))
 
 #Python program that accepts a comma separated sequence of words as input and prints the unique words in sorted form (alphanumerically).
 
