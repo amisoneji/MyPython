@@ -15,3 +15,10 @@ item=int(input("Enter a item you want to remove:"))
 if item in my_set:
     my_set.remove(item)
 print(my_set)
+
+#Python program to add member(s) in a set
+
+my_set={1,2,3,4,5}
+my_set.add(6)
+print(my_set)
+
