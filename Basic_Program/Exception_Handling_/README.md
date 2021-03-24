@@ -2,7 +2,7 @@ It is technique to avoid abnormal program termination by executing alternative s
 
 **Try & Except**:
 
-it contains those set of statements whose execution may genrate exception.
+It contains those set of statements whose execution may generate exception.
 often try block use either except or finally block.
 Exception can not handle keyboard & stop iteration error but default Except can handle any exception.
 Default except must be last handler.
